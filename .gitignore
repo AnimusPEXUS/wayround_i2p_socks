@@ -1,0 +1,12 @@
+/.settings
+/.pydevproject
+/.project
+/.externalToolBuilders
+/dist
+/build
+/MANIFEST
+*.py?
+*~
+*.so
+/MANIFEST
+/*.egg-info
