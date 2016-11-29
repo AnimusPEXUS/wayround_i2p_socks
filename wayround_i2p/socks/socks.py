@@ -8,7 +8,7 @@ import logging
 import socket
 import struct
 
-import wayround_org.socketserver.server
+import wayround_i2p.socketserver.server
 
 
 def _render_addr(atyp, bnd_addr):
@@ -204,7 +204,7 @@ class Server:
 
         """
 
-        ss = wayround_org.socketserver.server.SocketServer(
+        ss = wayround_i2p.socketserver.server.SocketServer(
             s,
             self._on_accept
             )
